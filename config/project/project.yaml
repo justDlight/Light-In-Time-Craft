@@ -1,0 +1,70 @@
+dateModified: 1664347755
+email:
+  fromEmail: John.weiss1996@gmail.com
+  fromName: craftlit
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  africaGallery:
+    hasUrls: true
+    name: 'Africa Gallery'
+    settings:
+      path: '@webroot/img/africa web'
+    type: craft\fs\Local
+    url: '@web/img/africa web'
+  algeriaWeb:
+    hasUrls: true
+    name: 'Algeria Web'
+    settings:
+      path: '@webroot/img/Algerien web'
+    type: craft\fs\Local
+    url: '@web/img/Algerien web'
+  homepageimages:
+    hasUrls: true
+    name: homepageImages
+    settings:
+      path: '@webroot/img'
+    type: craft\fs\Local
+    url: '@web/img'
+  photoGallery:
+    hasUrls: true
+    name: 'Photo Gallery'
+    settings:
+      path: '@webroot/img/africa web'
+    type: craft\fs\Local
+    url: '@web/img/africa web'
+meta:
+  __names__:
+    0e773d1f-965d-471e-bd8a-832167275adf: craftlit # craftlit
+    00f9fa93-5586-4fb5-8f58-8703803ad219: Homepage # Homepage
+    3c31a523-6c01-4306-8329-23ce6f6d442a: Gallery # Gallery
+    06e022df-e4f7-40ca-951b-f89306eb16e3: 'Photo Gallery' # Photo Gallery
+    11f318ce-278d-48cd-9f41-27b7f0755b57: 'Africa Gallery' # Africa Gallery
+    12f7e30d-d8bd-43f6-a974-a517352d8760: Gallery # Gallery
+    16b911df-d488-48eb-9811-25b6a5ddc135: 'Africa Photos' # Africa Photos
+    33cfd352-7635-4204-b3f0-a539901817cd: craftlit # craftlit
+    77a900d7-6246-470a-894d-1eed56ab2a59: Default # Default
+    79f280a5-aa33-4e68-89ff-509d988d1e36: Gallery # Gallery
+    94afab95-a943-4237-bda4-0741d26fe998: 'Single Photo' # Single Photo
+    257a6c73-a6ab-4c83-9b4a-a4355ab27997: 'Photo Title' # Photo Title
+    595f16f9-a6af-4994-ac29-306de64f4b48: 'Album Title' # Album Title
+    622e36a2-f810-44e9-88ed-8e346bb20ffc: Africa # Africa
+    2262f21a-b6ed-492b-8a50-c81a54e58d35: 'Africa Album' # Africa Album
+    65756cee-2ff8-4333-b4b6-5f6305e2f194: 'Africa Album' # Africa Album
+    af5d9446-65b3-4058-bac1-8645cfc48af6: Homepage # Homepage
+    c192db63-0d5d-4fc7-8521-00c15bd030ce: 'Homepage Image' # Homepage Image
+    ceb1335f-bd05-4e74-8065-0e87dec7bd75: 'Homepage Images' # Homepage Images
+    d3fe3045-fcfd-4efa-81ab-981966604ccf: Common # Common
+    e8826908-e1a9-4a6f-952d-348bca231066: 'Photo Gallery Images' # Photo Gallery Images
+    f0436691-ed67-400b-b3b6-21d2c9c01749: Homepage # Homepage
+system:
+  edition: solo
+  live: true
+  name: craftlit
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

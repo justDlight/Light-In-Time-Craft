@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en
+name: craftlit
+primary: true
+siteGroup: 0e773d1f-965d-471e-bd8a-832167275adf # craftlit
+sortOrder: 1

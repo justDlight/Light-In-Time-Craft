@@ -1,0 +1,55 @@
+fieldLayouts:
+  3e11fa4e-8ec1-4db1-a328-79728f2f740c:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8944ff97-31d8-4555-802c-7772312291f4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e8826908-e1a9-4a6f-952d-348bca231066 # Photo Gallery Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d20f278f-b9ab-4f2f-ae16-af7dc484bca3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 28eaaa9b-1a88-45a3-949a-958b3c4d6aec
+        userCondition: null
+fs: africaGallery
+handle: africaGallery
+name: 'Africa Gallery'
+sortOrder: 5
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

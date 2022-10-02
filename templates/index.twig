@@ -1,0 +1,84 @@
+{% extends "_layouts/nav" %}
+
+
+{% block nav %}
+    <!-- Start of Bootstrap Grid -->
+    <div class="container" id="grid_container">
+      <!-- Start of 1st row -->
+      <div class="row mb-5">
+      <!-- Start of 1st column -->
+        <div class="col-md" align="center">
+          <!-- Light In Time Spinning Title -->
+
+          {% set myEntryQuery = craft.entries().section('homepage') %}
+          {% set entries = myEntryQuery.all() %}
+          {% for entry in entries %}
+          <div class="waviy">
+            <span style="--i:1">{{ entry.title }}</span>
+          </div>
+          
+        <!-- End of 1st Column --> 
+        </div>
+      <!-- End of 1st row -->
+      </div>
+
+      <div id="border_try">
+        <!-- Start of 2nd row -->
+        <div class="row">
+        	<!-- Start of 1st column -->
+        	<div class="col-md" align="center">
+          {% for galleryItem in craft.entries.section('gallery').limit(15).all() %}
+        	<a href="{{ galleryItem.url }}">
+          {% endfor %}
+              <button class="glow-on-hover" type="button">Photo Gallery</button>
+            </a>
+            <a href="https://lightintime.com/video_page.html">
+                <button class="glow-on-hover" type="button">Video Gallery</button>
+            </a>
+            <a href="https://lightintime.com/about.html">
+              <button class="glow-on-hover" type="button">About/Buy Photos</button>
+            </a>
+        	</div>
+        </div>
+
+
+
+        <div class="row mb-5">
+          <div class="col-md">
+
+          </div>
+        </div>
+
+
+        <!-- Start of 5th row -->
+        <div class="row mb-5">
+          <!-- Start of 1st column -->
+          <div class="col-md">
+            <div id="carouselExampleSlidesOnly" class="carousel slide" data-mdb-ride="carousel">       
+              <div class="carousel-inner">
+              {% for asset in entry.homepageImage %}
+                <div class="carousel-item {{loop.index==1 ? 'active':''}}">
+                    <img src="{{ asset.getUrl() }}" id="img_id" class="d-block w-100" alt="Loading"/>          
+                </div>
+                {% endfor %}
+
+              </div>
+            </div>
+
+          <!-- End of 1st Column -->
+        </div>
+        <!-- End of 5th row -->
+        </div>
+        {% endfor %}
+
+
+        <div class="row">
+          <div class="col-md" align="center">
+            <h4>TIP! Hover mouse on image to stop slideshow</h4>
+          </div>
+        </div>
+    </div>
+
+    
+    <!-- End your project here-->
+{% endblock %}

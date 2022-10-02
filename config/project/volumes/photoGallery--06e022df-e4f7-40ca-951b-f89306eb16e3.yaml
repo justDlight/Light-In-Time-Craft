@@ -1,0 +1,43 @@
+fieldLayouts:
+  407cb6ce-4515-41a2-903a-164a7528ff70:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: 'Photo Gallery Images'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 8e1b2d03-7e9d-45b1-bbfe-4f763bf2daf8
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0fe31d22-5a69-4d3e-941d-544750e2cb73
+        userCondition: null
+fs: photoGallery
+handle: photoGallery
+name: 'Photo Gallery'
+sortOrder: 4
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: ''
+transformSubpath: ''

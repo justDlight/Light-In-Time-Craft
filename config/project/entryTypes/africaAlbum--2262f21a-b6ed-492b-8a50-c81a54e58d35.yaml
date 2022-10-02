@@ -1,0 +1,67 @@
+fieldLayouts:
+  b2373fd9-26ba-451e-9106-860307b01515:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 112b4761-3990-4be4-8c14-b5a414a416ac
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 16b911df-d488-48eb-9811-25b6a5ddc135 # Africa Photos
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0411f585-a9d7-4d07-8437-3520d4366bc8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 257a6c73-a6ab-4c83-9b4a-a4355ab27997 # Photo Title
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 91de9b90-2f08-470b-9227-58eefeb21735
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 47ae04b6-d312-47f5-918a-bd6606fcb2e0
+        userCondition: null
+handle: africaAlbum
+hasTitleField: true
+name: 'Africa Album'
+section: 65756cee-2ff8-4333-b4b6-5f6305e2f194 # Africa Album
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

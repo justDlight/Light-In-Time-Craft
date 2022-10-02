@@ -1,0 +1,79 @@
+{% extends '_layouts/nav' %}
+
+{% block nav %}
+<div class="container">
+  <div class="row">
+    <div class="col-md" align="center">
+      <h1>{{ entry.title }}</h1>
+      <h3>Please select a photo from below.</h3>
+    </div>
+  </div>
+  
+
+  <div id="border_try">
+    <div class="row mb-5">
+      <div class="col-md" align="center">
+        <a href="https://lightintime.com/single_photo/africa_1.html">
+          <img src="https://lightintime.com/img/africa web/03.jpg" id="img_id" height="150" width="225" alt="Loading">
+          <br>
+          {{ entry.photoTitle }}
+        </a>
+      </div>
+      <div class="col-md" align="center">
+        <a href="https://lightintime.com/single_photo/africa_2.html">
+          <img src="https://lightintime.com/img/africa web/04.jpg" id="img_id" height="152" width="225" alt="Loading">
+          <br>
+          Title: Eagle
+        </a>
+      </div>
+      <div class="col-md" align="center">
+        <a href="https://lightintime.com/single_photo/africa_3.html">
+          <img src="https://lightintime.com/img/africa web/02.jpg" id="img_id" height="150" width="225" alt="Loading">
+          <br>
+          Title: Cheetah
+        </a>
+      </div>
+      <div class="col-md" align="center">
+        <a href="https://lightintime.com/single_photo/africa_4.html">
+          <img src="https://lightintime.com/img/africa web/05.jpg" id="img_id" height="150" width="225" alt="Loading">
+          <br>
+          Title: Zebra herd
+        </a>
+      </div>
+    </div>
+      <div class="row mb-5">
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/single_photo/africa_5.html">
+            <img src="https://lightintime.com/img/africa web/01.jpg" id="img_id" height="200" width="175" alt="Loading">
+            <br>
+            Title: Baboon monkey
+          </a>
+        </div>
+      </div>
+
+      <div class="row mb-2">
+          <!-- Start of 1st column -->
+          <div class="col-md" align="center">
+            <a href="https://lightintime.com/africa_slideshow.html">
+              <button class="glow-on-hover" type="button">Play Slideshow</button>
+            </a>
+        </div>
+      </div>
+      
+      <div class="row mb-2">
+          <!-- Start of 1st column -->
+          <div class="col-md" align="center">
+            <a href="https://lightintime.com">
+              <button class="glow-on-hover" type="button">Back to Homepage</button>
+            </a>
+            <a href="https://lightintime.com/photo_gallery.html">
+              <button class="glow-on-hover" type="button">Back to Gallery</button>
+            </a>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  {% endblock %}

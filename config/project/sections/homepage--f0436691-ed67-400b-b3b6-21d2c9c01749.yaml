@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  33cfd352-7635-4204-b3f0-a539901817cd: # craftlit
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: 'homepage/{slug}'
+type: channel

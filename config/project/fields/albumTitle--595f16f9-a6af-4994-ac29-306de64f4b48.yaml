@@ -1,0 +1,19 @@
+columnSuffix: hkpobzau
+contentColumnType: text
+fieldGroup: 12f7e30d-d8bd-43f6-a974-a517352d8760 # Gallery
+handle: albumTitle
+instructions: 'Title for the photo album goes here'
+name: 'Album Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Enter title for photo.'
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

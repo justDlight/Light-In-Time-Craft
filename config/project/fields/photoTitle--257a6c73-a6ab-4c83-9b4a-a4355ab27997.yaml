@@ -1,0 +1,19 @@
+columnSuffix: tfhlpboz
+contentColumnType: text
+fieldGroup: 622e36a2-f810-44e9-88ed-8e346bb20ffc # Africa
+handle: photoTitle
+instructions: 'Enter the title for the photo here.'
+name: 'Photo Title'
+searchable: true
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: 'Title: '
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

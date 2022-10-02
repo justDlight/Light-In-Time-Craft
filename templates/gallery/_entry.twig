@@ -1,0 +1,111 @@
+{% extends '_layouts/nav' %}
+
+{% block nav %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md" align="center">
+        <h1>
+          {{ entry.title }}
+        </h1>
+        <h3>
+          Please select an album from below.
+        </h3>
+      </div>
+    </div>
+
+    <div id="border_try">
+      <div class="row mb-5">
+        <div class="col-md" align="center">
+        {% for africaLink in craft.entries.section('africaAlbum').all() %}
+          <a href="{{ africaLink.url }}">
+            <img src="{{ entry.photoGalleryImages.one().url() }}"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+              {% endfor %}
+            <br />
+            {{ entry.albumTitle }}
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/Algeria_photos.html">
+            <img src="https://lightintime.com/img/Algerien web/009.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            Algeria Album
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/australia_photos.html">
+            <img src="https://lightintime.com/img/Australien web/019.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            Australia Album
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/europe_photos.html">
+            <img src="https://lightintime.com/img/Europa web/003.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            Europe Album
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/new_york_photos.html">
+            <img src="https://lightintime.com/img/NY web/003.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            New York Album
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/usa_southwest_photos.html">
+            <img src="https://lightintime.com/img/USA_Southwest_web/015.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            USA Southwest Album
+          </a>
+        </div>
+        <div class="col-md" align="center">
+          <a href="https://lightintime.com/other_collection_photos.html">
+            <img src="https://lightintime.com/img/Mix Photos web/001.jpg"
+              id="img_id"
+              height="200"
+              width="350"
+              alt="Loading" />
+            <br />
+            Other Collection Album
+          </a>
+        </div>
+
+        <div class="row mb-5">
+          <!-- Start of 1st column -->
+          <div class="col-md" align="center">
+            <a href="https://lightintime.com">
+              <button class="glow-on-hover" type="button">
+                Back to Homepage
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
